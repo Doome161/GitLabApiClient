@@ -51,7 +51,7 @@ namespace GitLabApiClient.Models.Pipelines.Responses
         public DateTime? CommittedAt { get; set; }
 
         [JsonProperty("duration")]
-        public int Duration { get; set; }
+        public double Duration { get; set; }
 
         [JsonProperty("coverage")]
         public string Coverage { get; set; }
